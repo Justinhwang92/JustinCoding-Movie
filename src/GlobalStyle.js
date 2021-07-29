@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
 
   * {
     box-sizing: border-box;
-    font-familt: 'Abel', sans-serif;
+    font-family: 'Abel', sans-serif;
   }
 
   body {
@@ -25,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     h1 {
       font-size: 2rem;
       font-weight: 600;
-      clolor: var(--white);
+      color: var(--white);
     }
 
     h3 {
