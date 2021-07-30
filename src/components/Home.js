@@ -10,7 +10,7 @@ import NoImage from "../images/no_image.jpg";
 
 const Home = () => {
   const { state, loading, error } = useHomeFetch();
-  // console.log(state);
+  console.log(state);
   return (
     <>
       {/* most popular movie */}
