@@ -12,7 +12,6 @@ const App = () => {
     <div className="App">
       <Header />
       <Home />
-      Start here.
       <GlobalStyle />
     </div>
   );
