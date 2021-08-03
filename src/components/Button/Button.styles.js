@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: var(--darkGrey);
   width: 25%;
   min-width: 200px;
@@ -11,10 +13,10 @@ export const Wrapper = styled.div`
   border: 0;
   font-size: var(--fontBig);
   margin: 20px auto;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   outline: none;
   cursor: pointer;
-
   :hover {
     opacity: 0.8;
   }
