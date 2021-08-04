@@ -21,7 +21,7 @@ const Movie = () => {
 
   if (loading) return <Spinner />;
   if (error) return <div>Something went wrong...</div>;
-  console.log(movie);
+  // console.log(movie);
   return (
     <>
       <Breadcrumb movieTitle={movie.original_title} />
