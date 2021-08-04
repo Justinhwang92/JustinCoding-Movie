@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 // API
 import API from "../API";
 // Helpers
@@ -47,12 +47,12 @@ export const useHomeFetch = () => {
       const sessionState = isPersistedState("homeState");
 
       if (sessionState) {
-        console.log("Grabbing from sessionStorage");
+        // console.log("Grabbing from sessionStorage");
         setState(sessionState);
         return;
       }
     }
-    console.log("Grabbing from API");
+    // console.log("Grabbing from API");
     setState(initialState);
     fetchMovies(1, searchTerm);
   }, [searchTerm]); // re-render whenever serchTerm changes
