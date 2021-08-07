@@ -7,6 +7,7 @@ import TMDMBogo from "../../images/tmdb_logo.svg";
 import { Context } from "../../context";
 // Styles
 import { Wrapper, Content, LogoImg, TMDBLogoImg } from "./Header.styles";
+import Button from "../Button";
 
 const Header = () => {
   const [user] = useContext(Context);
@@ -18,10 +19,10 @@ const Header = () => {
           <LogoImg src={JCLogo} alt="rmdb-logo" />
         </Link>
         {user ? (
-          <span className="loggedin">Logged in as:{user.username}</span>
+          <span>Logged in as:{user.username}</span>
         ) : (
           <Link to="/login">
-            <span className="login">login</span>
+            <span>Login</span>
           </Link>
         )}
         <TMDBLogoImg src={TMDMBogo} alt="tmdb-logo" />
