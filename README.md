@@ -1,6 +1,6 @@
 # React Movie App with JavaScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A website built for Movie app using React and JavaScript. Fully responsive web app.
 
 ## Available Scripts
 
