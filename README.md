@@ -1,4 +1,4 @@
-# React Movie App with JavaScript
+# JC-React Movie App with JavaScript
 
 A website built for Movie app using React and JavaScript. Fully responsive web app.
 
